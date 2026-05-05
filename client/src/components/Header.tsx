@@ -10,9 +10,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
             <img 
-              src="/manus-storage/game_changers_logo_32047ec0.webp" 
+              src="/manus-storage/IMG_1246_5b617adf.png" 
               alt="Game Changers Bar & Grill Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
             <span className="heading-sm text-primary hidden sm:inline">
               GAME CHANGERS
