@@ -23,29 +23,29 @@ export default function Header() {
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/">
-              <a className="text-foreground font-semibold hover:text-primary transition">
+              <span className="text-foreground font-semibold hover:text-primary transition cursor-pointer">
                 HOME
-              </a>
+              </span>
             </Link>
             <Link href="/menu">
-              <a className="text-foreground font-semibold hover:text-primary transition">
+              <span className="text-foreground font-semibold hover:text-primary transition cursor-pointer">
                 MENU
-              </a>
+              </span>
             </Link>
             <Link href="/about">
-              <a className="text-foreground font-semibold hover:text-primary transition">
+              <span className="text-foreground font-semibold hover:text-primary transition cursor-pointer">
                 ABOUT
-              </a>
+              </span>
             </Link>
             <Link href="/events">
-              <a className="text-foreground font-semibold hover:text-primary transition">
+              <span className="text-foreground font-semibold hover:text-primary transition cursor-pointer">
                 EVENTS
-              </a>
+              </span>
             </Link>
             <Link href="/contact">
-              <a className="text-foreground font-semibold hover:text-primary transition">
+              <span className="text-foreground font-semibold hover:text-primary transition cursor-pointer">
                 CONTACT
-              </a>
+              </span>
             </Link>
           </nav>
 
@@ -84,29 +84,29 @@ export default function Header() {
         {/* Mobile Navigation */}
         <nav className="md:hidden flex items-center gap-4 mt-4 flex-wrap justify-center">
           <Link href="/">
-            <a className="text-sm font-semibold text-foreground hover:text-primary transition">
+            <span className="text-sm font-semibold text-foreground hover:text-primary transition cursor-pointer">
               HOME
-            </a>
+            </span>
           </Link>
           <Link href="/menu">
-            <a className="text-sm font-semibold text-foreground hover:text-primary transition">
+            <span className="text-sm font-semibold text-foreground hover:text-primary transition cursor-pointer">
               MENU
-            </a>
+            </span>
           </Link>
           <Link href="/about">
-            <a className="text-sm font-semibold text-foreground hover:text-primary transition">
+            <span className="text-sm font-semibold text-foreground hover:text-primary transition cursor-pointer">
               ABOUT
-            </a>
+            </span>
           </Link>
           <Link href="/events">
-            <a className="text-sm font-semibold text-foreground hover:text-primary transition">
+            <span className="text-sm font-semibold text-foreground hover:text-primary transition cursor-pointer">
               EVENTS
-            </a>
+            </span>
           </Link>
           <Link href="/contact">
-            <a className="text-sm font-semibold text-foreground hover:text-primary transition">
+            <span className="text-sm font-semibold text-foreground hover:text-primary transition cursor-pointer">
               CONTACT
-            </a>
+            </span>
           </Link>
         </nav>
       </div>

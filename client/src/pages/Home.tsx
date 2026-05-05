@@ -33,7 +33,7 @@ export default function Home() {
             Your ultimate destination for great food, refreshing drinks, and sports action
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Link href="/menu">
               <a>
                 <Button 
@@ -44,13 +44,6 @@ export default function Home() {
                 </Button>
               </a>
             </Link>
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8"
-              onClick={() => window.location.href = "tel:(573) 869-0022"}
-            >
-              ORDER NOW
-            </Button>
           </div>
         </div>
       </section>
@@ -227,7 +220,7 @@ export default function Home() {
           <p className="body-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Visit us at 414 S Main St, Palmyra, MO or call (573) 869-0022 to make a reservation
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Link href="/contact">
               <a>
                 <Button 
@@ -238,14 +231,6 @@ export default function Home() {
                 </Button>
               </a>
             </Link>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-bold"
-              onClick={() => window.location.href = "tel:(573) 869-0022"}
-            >
-              CALL NOW
-            </Button>
           </div>
         </div>
       </section>
