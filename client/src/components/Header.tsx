@@ -8,17 +8,15 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/">
-            <a className="flex items-center gap-2 hover:opacity-80 transition">
-              <img 
-                src="/manus-storage/game_changers_logo_32047ec0.webp" 
-                alt="Game Changers Bar & Grill Logo" 
-                className="h-12 w-auto"
-              />
-              <span className="heading-sm text-primary hidden sm:inline">
-                GAME CHANGERS
-              </span>
-            </a>
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
+            <img 
+              src="/manus-storage/game_changers_logo_32047ec0.webp" 
+              alt="Game Changers Bar & Grill Logo" 
+              className="h-12 w-auto"
+            />
+            <span className="heading-sm text-primary hidden sm:inline">
+              GAME CHANGERS
+            </span>
           </Link>
 
           {/* Navigation */}
