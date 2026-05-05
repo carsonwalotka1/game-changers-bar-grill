@@ -14,7 +14,7 @@ export default function Home() {
             backgroundAttachment: "fixed"
           }}
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/40" style={{backgroundColor: '#5c5c5c'}} />
         
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="mb-8">
