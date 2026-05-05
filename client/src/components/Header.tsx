@@ -1,5 +1,6 @@
 import { Link } from "wouter";
-import { Facebook, Instagram, Music } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 
 export default function Header() {
   return (
@@ -76,7 +77,7 @@ export default function Header() {
               className="text-primary hover:text-accent transition"
               aria-label="TikTok"
             >
-              <Music size={24} />
+              <SiTiktok size={24} />
             </a>
           </div>
         </div>

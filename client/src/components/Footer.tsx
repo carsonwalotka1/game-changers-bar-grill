@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Music, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -56,7 +57,7 @@ export default function Footer() {
                 className="hover:opacity-80 transition"
                 aria-label="TikTok"
               >
-                <Music size={28} />
+                <SiTiktok size={28} />
               </a>
             </div>
           </div>
