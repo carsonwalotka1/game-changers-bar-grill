@@ -6,7 +6,7 @@ export default function Menu() {
       {/* Hero */}
       <section className="bg-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="heading-xl text-primary-foreground mb-4">OUR MENU</h1>
+          <h2 className="heading-lg text-primary mb-4">OUR MENU</h2>
           <p className="body-lg text-primary-foreground/90">
             Fresh, bold flavors made to order. Perfect for game day or any day.
           </p>
@@ -182,7 +182,7 @@ export default function Menu() {
           </p>
           <button 
             onClick={() => window.location.href = "tel:(573) 869-0022"}
-            className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-bold text-lg transition"
+            className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-bold text-lg transition cursor-pointer"
           >
             CALL NOW
           </button>

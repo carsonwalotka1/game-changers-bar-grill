@@ -35,14 +35,12 @@ export default function Home() {
           
           <div className="flex justify-center">
             <Link href="/menu">
-              <a>
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8"
-                >
-                  VIEW MENU
-                </Button>
-              </a>
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8"
+              >
+                VIEW MENU
+              </Button>
             </Link>
           </div>
         </div>
@@ -145,14 +143,12 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <Link href="/menu">
-              <a>
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
-                >
-                  SEE FULL MENU
-                </Button>
-              </a>
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
+              >
+                SEE FULL MENU
+              </Button>
             </Link>
           </div>
         </div>
@@ -222,14 +218,12 @@ export default function Home() {
           </p>
           <div className="flex justify-center">
             <Link href="/contact">
-              <a>
-                <Button 
-                  size="lg" 
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold"
-                >
-                  GET IN TOUCH
-                </Button>
-              </a>
+              <Button 
+                size="lg" 
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold"
+              >
+                GET IN TOUCH
+              </Button>
             </Link>
           </div>
         </div>
